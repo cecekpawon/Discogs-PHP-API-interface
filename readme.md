@@ -1,7 +1,6 @@
 ##  Discogs PHP API interface
 
-@cecekpawon - https://blog.thrsh.net
-
+@cecekpawon - http://blog.thrsh.net
 
 ```php
 require_once("yod.discogs.class.php");
@@ -103,6 +102,8 @@ $req = $discogs->labels(540515, true, array("page" => 1, "per_page" => 3));
 ```
 
 ### Search query
+
+Complete [search params](http://www.discogs.com/developers/#page:database,header:database-search)
 
 ```php
 /**
